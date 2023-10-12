@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+body {
+  background-color: #001233;
+}
+
+.container-content {
+  width: 100%;
+}
+.container-content .sidebar.collapse {
+  width: 17%;
+}
+.container-content .sidebar {
+  width: 6%;
+  position: fixed;
+  z-index: 999;
+  box-shadow: -40px 4px 30px 33px rgba(0, 0, 0, 0.29);
+  transition: 0.5s;
+}
+.container-content .sidebar .navbar {
+  width: 100%;
+  height: 100vh;
+  background: #091d49;
+  padding: 0 0.5rem;
+  overflow: hidden;
+  position: relative;
+}
+.container-content .sidebar .navbar .toggleBtn {
+  position: absolute;
+  color: rgb(170, 170, 170);
+  font-size: 1.5rem;
+  margin: 0 1.6rem;
+  cursor: pointer;
+  top: 5rem;
+  transition: 0.3s;
+}
+.container-content .sidebar .navbar .toggleBtn:hover {
+  color: #FF595A;
+}
+.container-content .sidebar .navbar .nav-links {
+  margin-top: 15rem;
+}
+.container-content .sidebar .navbar .nav-links .navlink {
+  padding: 1rem 0 1rem 1.7rem;
+  margin: 1.5rem 0;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0.8rem;
+  color: rgb(170, 170, 170);
+  overflow: hidden;
+}
+.container-content .sidebar .navbar .nav-links .navlink:hover {
+  background: #001233;
+  border-radius: 0.8rem;
+}
+.container-content .sidebar .navbar .nav-links .navlink:hover a {
+  color: gold;
+}
+.container-content .sidebar .navbar .nav-links .navlink a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: 0.3s;
+  color: rgb(170, 170, 170);
+}
+.container-content .sidebar .navbar .nav-links .navlink .fa-solid {
+  font-size: 1.2rem;
+  margin-right: 2em;
+}
+.container-content .sidebar .navbar .nav-links .navlink .link_name {
+  text-wrap: nowrap;
+  font-size: 1.2rem;
+}
+.container-content .main-content {
+  position: absolute;
+  width: 90%;
+  left: 8%;
+  transition: 0.5s;
+}
+.container-content .main-content #home {
+  height: 100vh;
+}
+.container-content .main-content #home .home-content {
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 2px solid white; */
+}
+.container-content .main-content #home .home-content .intro-section {
+  align-self: flex-start;
+  margin: 2rem 0 0 5rem;
+  padding-left: 5em;
+  width: 80%;
+  position: relative;
+}
+.container-content .main-content #home .home-content .intro-section .welcomeText {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  width: 250px;
+  line-height: 30px;
+  margin: 1rem 10px;
+}
+.container-content .main-content #home .home-content .intro-section .quote {
+  font-size: 11rem;
+  font-weight: 700;
+  color: #FF595A;
+  text-transform: uppercase;
+  line-height: 120px;
+}
+.container-content .main-content #home .home-content .intro-section .introText {
+  color: white;
+  position: absolute;
+  right: 10px;
+  bottom: 7em;
+  font-size: 1.5rem;
+  font-weight: 700;
+  width: 380px;
+  line-height: 25px;
+  text-shadow: -1px 4px 2px black;
+}
+.container-content .main-content #home .home-content .intro-section .introText span {
+  color: #FF595A;
+}
+.container-content .main-content #home .home-content .intro-section .introText a {
+  color: gold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.container-content .main-content #home .home-content .intro-section .introText a:hover {
+  color: rgb(189, 162, 9);
+}
+.container-content .main-content #home .home-content .intro-section .getStartedBtn {
+  position: absolute;
+  border: none;
+  width: 111px;
+  height: 40px;
+  left: 50%;
+  bottom: 2em;
+  transform: translate(10%);
+  background: gold;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  /* box-shadow: 0px 8px 0px 0px #e74f4f; */
+  transition: 0.3s;
+  transform-style: preserve-3d;
+  border: 2px solid black;
+}
+.container-content .main-content #home .home-content .intro-section .getStartedBtn::before {
+  content: "";
+  position: absolute;
+  width: 110px;
+  height: 40px;
+  border-radius: 0.5rem;
+  top: 0;
+  left: 0;
+  transform: translateZ(-1px);
+  background: #e45050;
+  border: 2px solid black;
+}
+.container-content .main-content #home .home-content .intro-section .getStartedBtn:hover {
+  background: rgb(207, 176, 1);
+}
+.container-content .main-content #about {
+  height: 100vh;
+}/*# sourceMappingURL=main.css.map */

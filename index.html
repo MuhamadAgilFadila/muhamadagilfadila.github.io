@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creating Navbar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Playfair+Display:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css" />
+    <script src="https://kit.fontawesome.com/128ce8a98d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-content">
+        <div class="sidebar">
+            <nav class="navbar">
+                <i class="fa-solid fa-bars toggleBtn"></i>
+                <!-- <div class="brand-logo">
+                    <img src="./images/My-Profile.jpg" alt="" class="logo">
+                    <p class="title">
+                        <span class="headName">Muhamad Agil Fadila</span>
+                        <span class="subName">Tech Learner</span>
+                    </p>
+                </div> -->
+                <ul class="nav-links">
+                    <li class="navlink">
+                        <a href="#">
+                            <i class="fa-solid fa-home"></i>
+                            <span class="link_name">Home</span>
+                        </a>
+                    </li>
+                    <li class="navlink">
+                        <a href="#about">
+                            <i class="fa-solid fa-user"></i>
+                            <span class="link_name">About Me</span>
+                        </a>
+                    </li>
+                    <li class="navlink">
+                        <a href="">
+                            <i class="fa-solid fa-phone"></i>
+                            <span class="link_name">Contact Me</span>
+                        </a>
+                    </li>
+                    <li class="navlink">
+                        <a href="">
+                            <i class="fa-solid fa-keyboard"></i>
+                            <span class="link_name">My Projects</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main-content">
+            <section id="home">
+                <div class="home-content">
+                    <img src="./images/myLogo.png" alt="Website Logo" class="logo" />
+                    <div class="intro-section">
+                        <p class="welcomeText">Welcome To My Website</p>
+                        <p class="quote">Everyth<br>ing Is <br>Explaina<br>ble</p>
+                        <p class="introText">
+                            My name is <span>Muhamad Agil Fadila</span>, Im an IT Enthusiast and Self-taught Front-end
+                            Web
+                            Developer. If you're Interesting With my work PLease Visit <a href="">My Projects</a>
+                            section and don't be shy to Reach me out in <a href="">My Contact</a> section in the menu
+                        </p>
+                        <button class="getStartedBtn">Get Started</button>
+                    </div>
+                </div>
+            </section>
+            <section id="about"></section>
+            <section id="contact"></section>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+
+</html>
